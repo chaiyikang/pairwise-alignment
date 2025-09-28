@@ -1,0 +1,59 @@
+.alignment-tool {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-section textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.parameters-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.alignment-type, .scoring-parameters, .substitution-matrix {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.info-text {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.scoring-parameters input {
+  width: 60px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.results-section {
+  margin-top: 20px;
+}
